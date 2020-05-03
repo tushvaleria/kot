@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #303841;
+}
+a {
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px ;
+  text-decoration: none;
+}
+a:hover {
+  color: #15b7b9;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-size: 562.5%;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border: dotted #b8b0b0 8px;
+  width: 3%;
+  border-bottom: none;
+  margin: 80px auto 80px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #e8f9e9;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 150px;
+  bottom: 400px;
+}
+
+.bottom-container {
+  background-color: #e8f9e9;
+  position: relative;
+  padding: 50px 0 20px;
+}
+.copy {
+  color: black;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.middle-container {
+  margin: 100px 0 100px 0;
+}
+
+.web- {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.getintouch-p {
+width: 30%;
+margin: auto;
+}
+.swim-img {
+  width: 25%;
+  float: left ;
+  margin-right: 30px;
+}
+
+.pizza-img {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.profile-img {
+  width: 15%;
+}
+
+.about-me {
+  width: 30%;
+  margin: auto;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
